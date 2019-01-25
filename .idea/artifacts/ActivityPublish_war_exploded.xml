@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ActivityPublish:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/ActivityPublish_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ActivityPublish" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$USER_HOME$/tomcat8/lib/jaspic-api.jar" />
+          <element id="file-copy" path="$USER_HOME$/tomcat8/lib/tomcat-api.jar" />
+          <element id="file-copy" path="$USER_HOME$/tomcat8/lib/tomcat-dbcp.jar" />
+          <element id="file-copy" path="$USER_HOME$/tomcat8/lib/tomcat-jdbc.jar" />
+          <element id="file-copy" path="$USER_HOME$/tomcat8/lib/tomcat-util.jar" />
+          <element id="library" level="project" name="struts2" />
+        </element>
+      </element>
+      <element id="library" level="module" name="Hibernate 5.3.2-5.3.2" module-name="ActivityPublish" />
+      <element id="javaee-facet-resources" facet="ActivityPublish/web/Web" />
+    </root>
+  </artifact>
+</component>
